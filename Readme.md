@@ -5,3 +5,4 @@
 - use [this website](https://mrkandreev.name/snippets/gitignore-generator/#Node) to generate giignore file
 - install nodemon which automatically restarts server when file changes
 - install it as dev dependancy so `npm i -D nodemon`
+- install prettier for avoiding merge conflicts when working in a team and format the document properly, instal it as dev dependacy
