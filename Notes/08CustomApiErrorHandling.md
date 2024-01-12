@@ -130,7 +130,8 @@ In summary, the `if-else` part ensures that the `stack` property of the error is
 ### ApiError.js in utility
 ```js
 const asyncHandler = (requestHandler) => {
-  (req, res, next) => {
+  // mistake caught in 12 video
+  return (req, res, next) => {
     Promise.resolve(requestHandler(req, res, next))
     .catch((err) => next(err));
   };
