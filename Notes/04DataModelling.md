@@ -58,6 +58,8 @@ const orderSchema = new mongoose.Schema(
 export const Order =  mongoose.model('Order', orderSchema);
 
 ```
+The model will be named as `orders` [Plural and Smallcase] and that's why we always name the Model in UpperCase and Singular , ie `Order`
+
 
 Another Exammple - 
 ```js
