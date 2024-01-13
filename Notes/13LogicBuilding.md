@@ -8,7 +8,7 @@
 
 While writing 2.1 Step- **get user details from frontend**
     - took data from req.body and tested it by sending request in postman
-    ![testingWithPostman](image.png)
+    ![testingWithPostman](./images/13postman.png)
     - then realised that we also need to handle files , for that we went to user.routes.js and imported upload variable present in multer middleware, so that we can upload two files.
     - `upload.single` - upload single file
     - `upload.array` - upload multiple files at a **single** field
