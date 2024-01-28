@@ -76,7 +76,6 @@ userSchema.methods.generateRefreshTokens = function () {
 jwt is bearer token -> who has this token only they can access info
 
 what is access token and refresh token, what is need?
-```js
 **Access Tokens and Refresh Tokens:**
 
 1. **Access Token:**
@@ -118,7 +117,7 @@ Let's say you log in to a social media website:
    - When the access token expires, instead of logging in again, you use the refresh token to request a new access token without re-entering credentials.
 
 In summary, access tokens grant access to specific resources, while refresh tokens help in obtaining new access tokens without requiring the user to log in again. This mechanism improves security and user experience in web applications.
-```
+
 
 what is jwt.sign()?
 The provided code is part of a user authentication system, and it is associated with a user schema in a backend application, possibly built using a framework like Express.js and a database like MongoDB. Let's break it down:
