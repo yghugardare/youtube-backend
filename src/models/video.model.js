@@ -37,7 +37,8 @@ const videoSchema = new Schema(
   },
   { timestamps: true }
 );
-
+// primary purpose of this plugin is to enable pagination when using MongoDB's aggregation framework for querying the "videos" collection.
+//  introduces the paginate() method, allowing you to perform paginated aggregations on the "videos" collection.
 videoSchema.plugin(mongooseAggregatePaginate);
 
 export const Video = mongoose.model("Video", videoSchema);
